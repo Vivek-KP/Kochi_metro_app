@@ -1,0 +1,206 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+*{
+  margin: 0%;
+  padding: 0%;
+}
+
+.logo_img{
+  width: 80px;
+  height: 80px;
+
+}
+header{
+  background-color: rgb(41, 191, 255);
+}
+.heading{
+  display: flex;
+  align-items: center;
+  margin-left: 10%;
+  margin-right: 10%;
+ 
+  
+}
+h1{
+  text-align: center;
+  position: absolute;
+  left: 45%;
+  color: white;
+  
+}
+
+
+.content{
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.body_heading{
+  line-height: 35px;
+  position: relative;
+  top: 35px;
+}
+.second_head{
+  font-size: 16px;
+}
+
+
+
+
+
+.station{
+  position: relative;
+  top: 80px;
+  padding-bottom: 50px;
+}
+.station_details{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.container{
+  border: none;
+  box-shadow: 2px 2px 5px 3px rgb(200, 200, 200);
+  width: 350px;
+  height: 300px;
+  margin-top: 12px;
+  overflow: auto;
+  padding: 10px 10px;
+
+}
+.data_container{
+  border: 2px solid ;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+.data_container1{
+  border: 2px solid ;
+  margin-bottom: 12px;
+  cursor: pointer;
+}
+
+h4{
+  padding-left: 10px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+.api_data{
+  display: flex;
+  justify-content: space-between;
+  line-height: 30px;
+  padding: 10px 10px;
+}
+
+.api_data_key{
+  font-size: 14px;
+}
+.display_container{
+  border: none;
+  box-shadow: 2px 2px 5px 3px rgb(200, 200, 200);
+  width: 240px;
+  overflow: auto;
+  padding: 10px 10px;
+  position: relative;
+  top: 25px;
+  margin-top: 4px;
+  
+  
+}
+.faredisplay{
+  border: 2px solid ;
+  margin-bottom: 32px;
+}
+
+.station_details1{
+  display: flex;
+  justify-content: space-around;
+  margin-left: 10%;
+  margin-right: 10%;
+
+}
+.tripdetails{
+  font-size: 25px;
+  margin-left: 10%;
+  padding-top: 80px;
+}
+.fare{
+  padding: 10px 10px;
+}
+
+
+.data_container1:hover{
+  background-color: rgb(88, 200, 252);
+}
+.arrowname{
+  position: relative;
+  top: 70px;
+}
+
+
+
+footer{
+  background-color: rgb(41, 191, 255);
+  width: 100%;
+  position: relative;
+  top: 90px;
+}
+.foot{
+  padding-top: 25px;
+  padding-bottom: 12px;
+  margin-left: 10%;
+  margin-right: 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.foot span img{
+  background-color: white;
+  padding: 12px 12px;
+  border-radius: 12px;
+  border: none;
+  width: 20px;
+  height: 20px;
+  margin-left: 15px;
+}
+.foot p{
+  color: white;
+  font-size: 17px;
+}
